@@ -1,0 +1,12 @@
+{
+  "name": "uberMaterial",
+  "displayName": "uberMaterial",
+  "expo": {
+    "name": "uberMaterial",
+    "slug": "uberMaterial",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
