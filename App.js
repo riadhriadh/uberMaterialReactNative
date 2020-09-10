@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Awesome from './App/Components/Awesome';
+import TripsAwseom from './App/Components/TripsAwseome';
+import ItemCard from './App/Components/ItemCard';
+import Passengers from './App/Components/Passsenegers';
+import DriverComing from './App/Components/DriverIsComing';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <DriverComing></DriverComing>
     </View>
   );
 }

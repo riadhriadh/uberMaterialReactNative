@@ -1,0 +1,121 @@
+import React, { Component } from 'react';
+import { View, Text,Image } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+export default class DriverComing extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+        };
+    }
+
+    render() {
+        return (
+            <View style={{
+                backgroundColor: "#fafafa", height: "35%", width: "95%", borderRadius: 15,
+                shadowColor: "#000",
+                shadowOffset: {
+                    width: 0,
+                    height: 2,
+                },
+                shadowOpacity: 0.25,
+                shadowRadius: 3.84,
+
+                elevation: 5,
+                flexDirection: 'column',
+
+                justifyContent: "center",
+
+
+            }}>
+                <View style={{ flex: 1, flexDirection: "row", paddingHorizontal: 20 }}>
+                    <View style={{ flex: 2, justifyContent: "center" }}>
+                        <Text style={{ fontSize: 12, color: "black", }}>Your driver is coming in 2:35 !</Text>
+
+                    </View>
+                    <View style={{ flex: 1, justifyContent: "center" }}>
+                        <Text style={{ fontSize: 12, color: "#bdbdbd", textAlign: "right" }}>Cancel ride</Text>
+
+                    </View>
+
+                </View>
+                <View style={{ flex: 1.5, justifyContent: "center", flexDirection: 'row' }}>
+
+                    <View style={{ flex: 1, justifyContent: "center", alignItems: "center", margin: 7, alignItems: "center" }}>
+                        <Image
+                            style={{ height: 40, width: 40 }}
+                            source={{
+                                uri: 'https://www.sunlife.co.id/content/dam/sunlife/legacy/assets/id/About%20Us/Client%20Support/OG%20Images_L3%20About%20Us_Client%20Support.jpg',
+                            }}></Image>
+
+
+
+                    </View>
+                    <View style={{ flex: 1, justifyContent: "center", flexDirection: 'column' }}>
+                        <View style={{ flex: 1 }}>
+                            <Text style={{ color: "black", fontSize: 12 }}>Evan Quzman</Text>
+                        </View>
+                        <View style={{ flex: 1, flexDirection: "row", alignItems: 'center' }}>
+                            <Icon name="star" size={12} color="#ffca28" style={{ margin: 2 }} />
+                            <Text>4.6</Text>
+
+
+                        </View>
+
+                        <View style={{ flex: 1, flexDirection: "row", alignItems: 'center' }}>
+                            <Icon name="map-marker" size={12} color="#e0e0e0" style={{ margin: 2 }} />
+                            <Text style={{ fontSize: 10 }}> 3 mins</Text>
+                        </View>
+
+
+
+
+
+                    </View>
+                    <View style={{ flex: 1, padding: 6, height: "100%", width: "100%", justifyContent: "center", alignItems: "center" }}>
+                        <View style={{ flex: 1, width: "100%", marginBottom: 10, borderRadius: 7, justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+                            <Image
+
+                                source={require('../../assets/img/berline-eco.png')}
+                            ></Image>
+                            <View style={{ flexDirection: 'row', justifyContent: "center", alignItems: "center", margin: 3, }}>
+                                <Text style={{ fontSize: 10, color: "#bdbdbd" }}>ToyoutaVios-</Text>
+                                <Text style={{ fontSize: 10 }}>8CF4829</Text>
+                            </View>
+
+
+
+                        </View>
+
+
+
+                    </View>
+
+
+
+
+
+                </View>
+                <View style={{ flex: 1, padding: 6, height: "100%", width: "100%", flexDirection:"row" ,paddingHorizontal:10}}>
+                    <View style={{ flex: 2, backgroundColor: '#00ecff', width: "100%", marginBottom: 10, borderRadius: 7, justifyContent: "center", alignItems: "center" ,marginRight:15}}>
+                       
+                         <Text style={{color:"white",fontSize:12}}>MESSAGE</Text>
+
+
+                    </View>
+                    <View style={{ flex: 1, borderRadius:1,borderWidth:1, borderColor:"#00ecff",width: "100%", marginBottom: 10, borderRadius: 7, justifyContent: "center", alignItems: "center" }}>
+                       
+
+<Text style={{color:"#00ecff"}}>CALL</Text>
+
+                    </View>
+
+
+
+                </View>
+
+
+
+            </View>
+        );
+    }
+}
