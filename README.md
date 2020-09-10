@@ -12,8 +12,8 @@ Crate by riadh.
 
 # Image 
 
-![alt text](./img/Screenshot1.jpg)
-![alt text](./img/Screenshot2.jpg)
-![alt text](./img/Screenshot3.jpg)
-![alt text](./img/Screenshot4.jpg)
-![alt text](./img/Screenshot5.jpg)
+![alt text](./img/Screenshot1.png)
+![alt text](./img/Screenshot2.png)
+![alt text](./img/Screenshot3.png)
+![alt text](./img/Screenshot4.png)
+![alt text](./img/Screenshot5.png)
